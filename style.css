@@ -1,0 +1,138 @@
+ <!-- CSS Stylesheet -->
+ 
+ * {
+	/* box-sizing: border-box; */
+  }
+  
+  body {
+	font-family: Arial;
+	width:1000px;
+	background-color: turquoise;
+	margin:0px auto;
+  }
+  
+   h1 {
+	color: white;
+	text-align: center;
+  }
+
+   /* p {
+	font-family: verdana;
+	font-size: 20px;
+  }
+  */
+ /* .wrapper
+ {
+	/* max-width:1000px; 
+	background-color: yellow;
+	/* margin:0px auto; 
+ } */
+ 
+    .header
+ {
+	/* overflow: hidden;
+	height: 50px; */
+	background-color:lightgray;
+	text-align: center;
+ }
+  
+  
+   .topnav
+ {
+	/* overflow: hidden; */
+	/* height: 10x;  */
+	background-color: lightyellow;
+	text-align: center;
+ }
+ 
+ 
+   .leftnav
+ {
+	width: 15%; 
+	/* height:540px; */
+	background-color: lightblue;
+	float: left;
+	text-align: center;
+	/* overflow: hidden; */
+ }
+
+   .rightnav
+ {
+	width: 15%;
+	/* height: 540px; */
+	background-color: lightblue;
+	float: right;
+	text-align: center;
+	/* overflow: hidden; */
+ }
+ 
+    .main
+ {
+	/* width: 850px;
+	height: 500px; */
+	background-color: lightskyblue;
+	text-align: center;
+	background: url("back123.jpg");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 10px;
+	/* position: center; */
+	/* overflow: hidden; */
+ }
+
+.containerDiv
+ {
+	color: Yellow;
+ }
+
+.enterMoneyDiv
+{
+	color:yellow;
+	font-weight: bold;
+}
+
+.expenseDiv
+{
+	color: red;
+	font-weight: bold;
+}
+
+label{
+	color: Brown;
+	font-weight: bold;
+}
+
+.SavingSaveDiv
+{
+	color: green;
+	font-weight: bold;
+}
+
+.calcButtonDiv
+{
+	font-weight: bold;
+	
+}
+
+.calcResultDiv
+{
+	color: green;
+}
+ 
+.resetDiv
+{
+	font-weight: bold;
+	color:black;
+}
+    .footer
+ {
+	/* height: 50px; */
+	/* overflow: hidden; */
+	background-color: lightgray;
+	text-align: center;
+ }
+
+
+ 
+ 

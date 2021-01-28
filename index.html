@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<title>WM</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+		<body>	
+			<div class = "header">
+				<h6>HEADER</h6>
+			</div>
+					
+			<div class = "topnav">
+				<h6>TOP NAV</h6>
+			</div>
+								
+			<div class = "main">
+				<h1>BUDGET APP</h1>
+
+				<script>
+					var user1="WM";
+					var username = prompt('Log-in Username:');
+
+					if (username == user1)
+					{
+						var pass1="2021";
+						password =  prompt('Password:');
+						if (password == pass1)
+						{
+						alert("Thank You!")
+						}else{
+						window.location = "wrongpassword.html";
+						}
+					}
+					else {
+					window.location = "wrongpassword.html";
+					}
+				</script>
+				
+				
+				<!--Container-->
+				<div class="containerDiv">
+
+					<!--Input Section-->
+					<div class="enterMoneyDiv">
+						<span class="label enter_money"><strong> INCOME</strong><br>Monthly: </label>
+						<input id="Enter_Money_In" type="text">
+					</div>
+
+					<!--Manage Budget Section -->
+					<div class="expenseDiv">
+						<br><strong>EXPENSES</strong></br>
+						<div class="RoomDiv">
+							<label for="RoomRent"> Housing:</label>
+							<input id="RoomRent" type="text">
+						</div>
+						<div class="WifiDiv">
+							<label for="WifiRent"> WiFi:</label>
+							<input id="WifiRent" type="text">
+						</div>
+						<div class="cellDiv">
+							<label for="CellRent"> Cell-Phone:</label>
+							<input id="CellRent" type="text">
+						</div>
+						<div class="elecDiv">
+							<label for="ElecRent"> Electricity:</label>
+							<input id="ElecRent" type="text">
+						</div>
+						<div class="otherDiv">
+							<label for="OtherMiscRent"> Other Misc.:</label>
+							<input id="OtherMiscRent" type="text">
+						</div>
+						<div class="saveDiv">
+							<span class="label SavingSaveDiv"><br> SAVINGS <br></span>
+							<input id="SavingSave" type="text">
+							<br>
+						</div>
+						<br><br>
+					</div>
+
+						<!--Calculation Button-->
+						<div class="calcButtonDiv"> 
+							<button onclick="calcBudget();"><br>CALCULATE</br></button>
+						</div>
+						<br>
+
+						<!--Show Results Section-->
+						<div class="calcResultDiv">
+							<h3>Monthly Budget</h3>
+							<input type="text" id="calcResult"/>
+						</div>
+						<br>
+
+						<!--Reset Button-->
+						<div class="resetDiv"> 
+							<button onclick="reset();"><br>Clear</br></button>
+						</div>
+						<br>
+				</div>
+			</div>
+
+			<script src="app.js"></script>
+
+
+			<div class = "leftnav">
+				<h6>LEFT NAV</h6>
+			</div>
+
+			<div class = "rightnav">
+				<h6>RIGHT NAV</h6>
+			</div>
+
+			<div class = "footer">
+				<h6>FOOTER</h6>
+			</div>
+
+		</body>
+</html>
+
